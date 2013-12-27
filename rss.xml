@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xml:lang="en">
+  <channel></channel>
+  <updated>2013-12-27T10:10:20.918Z</updated>
+  <title>Neeraj Kumar</title>
+  <subtitle type="text"></subtitle>
+  <link rel="alternate" type="text/html">http://blog.neerajk.com</link>
+  <id>http://feeds.feedburner.com/sanjeevonline/rss</id>
+  <generator uri="https://github.com/jnordberg/wintersmith" version="1.1.1">Wintersmith</generator>
+  <entry>
+    <author>
+      <name>neeraj</name>
+      <title type="html"><![CDATA[Ruby-oci8 with Rails]]></title>
+      <description><![CDATA[A day well spent with friends and family. A lot of site seeing and a lot of fun. - &lt;a href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/"&gt;Lire la suite&lt;/a&gt;]]></description>
+      <link rel="alternate" type="text/html" href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/"></link>
+      <id>http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/</id>
+      <updated>2013-12-27T10:08:00.000Z</updated>
+      <published>2013-12-27T10:08:00.000Z</published>
+      <category schema="http://blog.neerajk.com" term="ruby"></category>
+      <summary type="html"></summary>
+      <content type="html" xml:base="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/">A day well spent with friends and family. A lot of site seeing and a lot of fun.</content>
+      <link rel="replies" type="text/html" href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/#disqus_thread" thr:count="0"></link>
+      <link rel="replies" type="application/rss+xml" href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/#disqus_thread" thr:count="0">http://sanjeevonline.disqus.com/articles/2013-12-27-Ruby-oci8_with-rails//lastest.rss</link>
+      <thr:total>0</thr:total>
+    </author>
+  </entry>
+</rss>
