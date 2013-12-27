@@ -1,0 +1,5 @@
+{
+    "title":"Tag",
+    "currentTag": "ruby",
+    "template": "tag.jade"
+}
