@@ -5,21 +5,30 @@
     <atom:link href="http://blog.neerajk.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://blog.neerajk.com</link>
     <description>Neeraj Kumar</description>
-    <pubDate>Fri, 27 Dec 2013 15:38:00 +0550</pubDate>
+    <pubDate>Fri, 29 Nov 2013 15:38:00 +0550</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
     <item>
       <title>Ruby-oci8 with Rails</title>
       <link>http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/</link>
-      <pubDate>Fri, 27 Dec 2013 15:38:00 +0550</pubDate>
+      <pubDate>Fri, 29 Nov 2013 15:38:00 +0550</pubDate>
       <guid isPermaLink="true">http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/</guid>
       <author></author>
-      <description>&lt;p&gt;Arun and Anagha, our family friends, visited us in Brussels and we decided to do a little site seeing while they were around. Brussels has grown from a 10th-century fortress town to a sizeable city. It has a lot of popular places that a lot of tourists come to see.&lt;/p&gt;
-&lt;p&gt;We started our site seeing from the famous Atomium which is in Hayzel and is not very from where we live in Brussels. Rajni cooked some Parathas and snacks to carry along for site seeing. Later that day we went to see this place called Grand Place which is at walking distance from our place. It was a day well spent with family and friends.&lt;/p&gt;
-&lt;p&gt;Here are some pics from the tour.&lt;/p&gt;
-&lt;span2&gt;&lt;img src=&quot;https://lh5.googleusercontent.com/-PJUjJY7H-5Q/UR--ouCHg5I/AAAAAAAAZYY/6RmJksypA7Q/w352-h264-p-o/P1040813.JPG&quot; &gt;&lt;/span2&gt;
-&lt;span2&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/-doW0wcSR15c/UR-_CgQ51OI/AAAAAAAAZZQ/4QNtJtl-ays/w345-h259-p-o/P1030536.JPG&quot;&gt;&lt;/span2&gt;
-&lt;span2&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/-_7_x0VNACsI/UR--4ZuJ2LI/AAAAAAAAZY4/eX_c7crLv7c/w359-h269-p-o/P1040558.JPG&quot;&gt;&lt;/span2&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&quot;http://rubygems.org/gems/ruby-oci8&quot;&gt;Ruby-oci8&lt;/a&gt; is a rubygem which we use to build the connection with oracle DB in your rails application. But installation of &lt;a href=&quot;http://rubygems.org/gems/ruby-oci8&quot;&gt;ruby-oci8&lt;/a&gt; on linux or mac is not easy, while its a bit tricky. When I started to configure it on my mac first time, it consumed the entire day to google and configure. Therefore, I am trying to explain you the local configuration and installation here. However this post is only for linux and mac, but not for windows.&lt;/p&gt;
+&lt;p&gt;Hmmmmm, let&amp;#39;s start with the basics. I am assuming that you are using rails-3.0+ and ruby-1.8.7+. As we do with Rails-3 applications, We maintain a Gemfile and in order to install gems, we run bundle install. But, if you have specified ruby-oci8 gem, then just wait for few moments. This will be failed unless you have proper configuration.&lt;/p&gt;
+&lt;p&gt;1). You will need to install and configure &lt;a href=&quot;http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html&quot;&gt;oracle instant client&lt;/a&gt; first. Please download and install &lt;a href=&quot;http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html&quot;&gt;oracle instant client&lt;/a&gt;. The directions for installation is already given, but be careful to choose correct instant client version which could differ according to your machine.&lt;/p&gt;
+&lt;p&gt;2). Next, you will need to set your environment. Set environment variable LD_LIBRARY_PATH (DYLD_LIBRARY_PATH in case of mac). Just run this command on your terminal or console.&lt;/p&gt;
+&lt;p&gt;In case of Linux&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &lt;span class=&quot;title&quot;&gt;export&lt;/span&gt; LD_LIBRARY_PATH=&lt;span class=&quot;string&quot;&gt;&quot;/usr/lib/oracle/11.2/client64/&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt; In case of Mac&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &lt;span class=&quot;title&quot;&gt;export&lt;/span&gt; DYLD_LIBRARY_PATH=&lt;span class=&quot;string&quot;&gt;&quot;/usr/local/oracle/instantclient_11_2&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt; Or, you can add this command in your .bashrc or .zshrc file too and then run the command &lt;code&gt;source .bashrc&lt;/code&gt; or &lt;code&gt;source .zshrc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt; This will set the value of environment variable LD_LIBRARY_PATH as &amp;quot;/usr/lib/oracle/11.2/client64/&amp;quot;.&lt;/p&gt;
+&lt;p&gt; Also, check that this location does have the client installed. If not, find out where it is and create a soft link to here. ruby-oci8 expects to find it at this location “/usr/lib/oracle/….”.&lt;/p&gt;
+&lt;p&gt; 3). In this last step, you need to make a symlink. Just run this command&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo ln -s /usr/&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt;/linux/ &lt;span class=&quot;regexp&quot;&gt;/usr/include&lt;/span&gt;&lt;span class=&quot;regexp&quot;&gt;/sysclient&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In last, it must work after this. If its not working, then just drop a comment here, may be I could help you more.&lt;/p&gt;
+</description>
     </item>
   </channel>
 </rss>

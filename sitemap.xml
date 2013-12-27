@@ -2,37 +2,37 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://blog.neerajk.com</loc>
-    <lastmod>2013-12-27T10:10:20.919Z</lastmod>
+    <lastmod>2013-12-27T10:59:35.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive.html</loc>
-    <lastmod>2013-12-27T10:10:20.919Z</lastmod>
+    <lastmod>2013-12-27T10:59:35.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/</loc>
-    <lastmod>2013-12-27T10:08:00.000Z</lastmod>
+    <lastmod>2013-11-29T10:08:00.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/ruby</loc>
-    <lastmod>2013-12-27T10:10:20.919Z</lastmod>
+    <lastmod>2013-12-27T10:59:35.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Ruby</loc>
-    <lastmod>2013-12-27T10:10:20.919Z</lastmod>
+    <lastmod>2013-12-27T10:59:35.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive/2013</loc>
-    <lastmod>2013-12-27T10:10:20.919Z</lastmod>
+    <lastmod>2013-12-27T10:59:35.000Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
