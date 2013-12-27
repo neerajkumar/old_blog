@@ -1,19 +1,43 @@
 ---
 template: article.jade
 title: Ruby-oci8 with Rails
-date: 2013-12-27 15:38
+date: 2013-11-29 15:38
 author: neeraj
 aliases: ['/post/2007/01/08/code-and-stuff/', '/post/2007/01/08/first/', '/post/2008/01/08/first']
 categories: [Ruby]
 tags: [ruby]
-excerpt: A day well spent with friends and family. A lot of site seeing and a lot of fun.
+excerpt: Ruby-oci8 is a rubygem which we use to build the connection with oracle DB in your rails application.
 ---
-Arun and Anagha, our family friends, visited us in Brussels and we decided to do a little site seeing while they were around. Brussels has grown from a 10th-century fortress town to a sizeable city. It has a lot of popular places that a lot of tourists come to see.
+<a href="http://rubygems.org/gems/ruby-oci8">Ruby-oci8</a> is a rubygem which we use to build the connection with oracle DB in your rails application. But installation of <a href="http://rubygems.org/gems/ruby-oci8">ruby-oci8</a> on linux or mac is not easy, while its a bit tricky. When I started to configure it on my mac first time, it consumed the entire day to google and configure. Therefore, I am trying to explain you the local configuration and installation here. However this post is only for linux and mac, but not for windows.
 
-We started our site seeing from the famous Atomium which is in Hayzel and is not very from where we live in Brussels. Rajni cooked some Parathas and snacks to carry along for site seeing. Later that day we went to see this place called Grand Place which is at walking distance from our place. It was a day well spent with family and friends.
+Hmmmmm, let's start with the basics. I am assuming that you are using rails-3.0+ and ruby-1.8.7+. As we do with Rails-3 applications, We maintain a Gemfile and in order to install gems, we run bundle install. But, if you have specified ruby-oci8 gem, then just wait for few moments. This will be failed unless you have proper configuration.
 
-Here are some pics from the tour.
+1). You will need to install and configure <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a> first. Please download and install <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a>. The directions for installation is already given, but be careful to choose correct instant client version which could differ according to your machine.
 
-<span2><img src="https://lh5.googleusercontent.com/-PJUjJY7H-5Q/UR--ouCHg5I/AAAAAAAAZYY/6RmJksypA7Q/w352-h264-p-o/P1040813.JPG" ></span2>
-<span2><img src="https://lh3.googleusercontent.com/-doW0wcSR15c/UR-_CgQ51OI/AAAAAAAAZZQ/4QNtJtl-ays/w345-h259-p-o/P1030536.JPG"></span2>
-<span2><img src="https://lh6.googleusercontent.com/-_7_x0VNACsI/UR--4ZuJ2LI/AAAAAAAAZY4/eX_c7crLv7c/w359-h269-p-o/P1040558.JPG"></span2>
+2). Next, you will need to set your environment. Set environment variable LD_LIBRARY_PATH (DYLD_LIBRARY_PATH in case of mac). Just run this command on your terminal or console.
+
+In case of Linux
+
+```
+ export LD_LIBRARY_PATH="/usr/lib/oracle/11.2/client64/"
+ ```
+
+ In case of Mac
+
+```
+ export DYLD_LIBRARY_PATH="/usr/local/oracle/instantclient_11_2"
+ ```
+
+ Or, you can add this command in your .bashrc or .zshrc file too and then run the command `source .bashrc` or `source .zshrc`.
+
+ This will set the value of environment variable LD_LIBRARY_PATH as "/usr/lib/oracle/11.2/client64/".
+
+ Also, check that this location does have the client installed. If not, find out where it is and create a soft link to here. ruby-oci8 expects to find it at this location “/usr/lib/oracle/….”.
+
+ 3). In this last step, you need to make a symlink. Just run this command
+
+```
+sudo ln -s /usr/include/linux/ /usr/include/sysclient
+```
+
+In last, it must work after this. If its not working, then just drop a comment here, may be I could help you more.
