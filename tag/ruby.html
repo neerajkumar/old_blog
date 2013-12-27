@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tag - Neeraj Kumar</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta charset="utf-8">
+    <meta content="IE=edge;chrome=1">
+    <meta http-equiv="X-UA-Compatible">
+    <!--meta(http-equiv="content-type", content='width=device-width, initial-scale=1.0, charset=utf-8')-->
+    <link rel="SHORTCUT ICON" href="/assets/images/13.jpg">
+    <link rel="stylesheet" href="/assets/css/github.css">
+    <link rel="stylesheet" media="screen" href="/assets/bootstrap/css/bootstrap.min.css">
+    <style type="text/css">
+      body {
+          padding-top: 60px;
+          padding-bottom: 40px;
+      }
+      h1 {
+          font-size: 2em;
+      }
+      h2 {
+          font-size: 1.8em;
+      }
+      h3 {
+          font-size: 1.7em;
+      }
+      
+      @media only screen
+      and (min-width : 768px)
+      and (max-width : 995px) {
+        h3 {
+              font-size: 1.2em;
+        }
+      }
+      
+    </style>
+    <link rel="stylesheet" href="/assets/css/prettify.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=ABeeZee&amp;subset=latin">
+    <link rel="stylesheet" href="/assets/css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header"><a href="http://blog.neerajk.com" class="navbar-brand">Neeraj Kumar</a>
+            <buttona type="button" data-toggle="collapse" data-target="#navbar-main" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></buttona>
+          </div>
+          <div id="navbar-main" class="navbar-collapse collapse"><!-- .nav, .navbar-search, .navbar-form, etc -->
+            <ul class="nav navbar-nav">
+              <li class="dropdown active"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tags<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class="active"><a href="/tag/ruby.html">ruby</a></li>
+                </ul>
+              </li>
+              <li><a href="/archive.html">Archive</a></li>
+            </ul>
+            <form id="search-form" action="http://www.google.com/search" method="get" class="navbar-form pull-right"><span class="glass js-search-action"><i></i></span>
+              <input type="hidden" value="UTF-8" name="ie">
+              <input type="hidden" value="UTF-8" name="oe">
+              <input type="hidden" value="blog.neerajk.com" name="domains">
+              <input type="hidden" value="blog.neerajk.com" name="sitesearch">
+              <input name="q" type="text" placeholder="Search using Google..." class="search-query span2">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-9 col-sm-9">
+          <div style="text-align: center">
+            <div id="page_subtitle"> Posts tagged with : ruby</div>
+          </div>
+          <article class="post shadow">
+            <header>
+              <h1><a href="/articles/2013-12-27-Ruby-oci8_with-rails/">Ruby-oci8 with Rails</a></h1>
+              <footer class="footer">
+                <div style="font-size: 13px" class="inner">Posted by&nbsp;<span class="author"><a href="mailto:neeraj.kumar@gmail.com">Neeraj Kumar</a></span>&nbsp;
+                  | on&nbsp;<a href="/archive.html" class="back">November 29 2013&nbsp;</a>|&nbsp;<a href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/#disqus_thread">Comments</a>| Tags :&nbsp;<a href="/tag/ruby.html" rel="category tag" title="View all posts in 'ruby'">ruby</a>&nbsp;
+                </div>
+              </footer>
+              <hr>
+              <section class="content"><p><a href="http://rubygems.org/gems/ruby-oci8">Ruby-oci8</a> is a rubygem which we use to build the connection with oracle DB in your rails application. But installation of <a href="http://rubygems.org/gems/ruby-oci8">ruby-oci8</a> on linux or mac is not easy, while its a bit tricky. When I started to configure it on my mac first time, it consumed the entire day to google and configure. Therefore, I am trying to explain you the local configuration and installation here. However this post is only for linux and mac, but not for windows.</p>
+<p>Hmmmmm, let&#39;s start with the basics. I am assuming that you are using rails-3.0+ and ruby-1.8.7+. As we do with Rails-3 applications, We maintain a Gemfile and in order to install gems, we run bundle install. But, if you have specified ruby-oci8 gem, then just wait for few moments. This will be failed unless you have proper configuration.</p>
+<p>1). You will need to install and configure <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a> first. Please download and install <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a>. The directions for installation is already given, but be careful to choose correct instant client version which could differ according to your machine.</p>
+<p>2). Next, you will need to set your environment. Set environment variable LD_LIBRARY_PATH (DYLD_LIBRARY_PATH in case of mac). Just run this command on your terminal or console.</p>
+<p>In case of Linux</p>
+<pre><code> <span class="title">export</span> LD_LIBRARY_PATH=<span class="string">"/usr/lib/oracle/11.2/client64/"</span></code></pre>
+<p> In case of Mac</p>
+<pre><code> <span class="title">export</span> DYLD_LIBRARY_PATH=<span class="string">"/usr/local/oracle/instantclient_11_2"</span></code></pre>
+<p> Or, you can add this command in your .bashrc or .zshrc file too and then run the command <code>source .bashrc</code> or <code>source .zshrc</code>.</p>
+<p> This will set the value of environment variable LD_LIBRARY_PATH as &quot;/usr/lib/oracle/11.2/client64/&quot;.</p>
+<p> Also, check that this location does have the client installed. If not, find out where it is and create a soft link to here. ruby-oci8 expects to find it at this location “/usr/lib/oracle/….”.</p>
+<p> 3). In this last step, you need to make a symlink. Just run this command</p>
+<pre><code>sudo ln -s /usr/<span class="keyword">include</span>/linux/ <span class="regexp">/usr/include</span><span class="regexp">/sysclient</code></pre>
+<p>In last, it must work after this. If its not working, then just drop a comment here, may be I could help you more.</p>
+</section>
+              <hr>
+              <div id="social_bottom" class="topsocial">
+                <div class="social"><a href="/articles/2013-12-27-Ruby-oci8_with-rails/" data-url="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-text="Ruby-oci8 with Rails #ruby /via @sandee_sh" data-count="vertical" class="twitter-share-button">
+                    <twitter-share-button></twitter-share-button></a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                </div>
+                <div class="social"><g:plusone size="tall" href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/"></g:plusone></div>
+                <div class="social"><script type="IN/Share" data-url="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-counter="top"></script></div>
+                <div class="social">
+                  <div data-href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false" class="fb-like"></div>
+                </div>
+              </div>
+            </header>
+          </article><a href="/archive.html" id="archive">Visit the archives!</a>
+        </div>
+        <div id="sidebar" class="col-lg-3 col-sm-3">
+          <div class="sidebar-header"><a href="https://github.com/neerajkumar"><img src="/assets/images/13.jpg" class="img-circle img-responsive"></a>
+            <hr>
+            <h3>
+              <p class="pull-right"><a href="https://in.linkedin.com/in/neerajkumar2013/"><img src="/assets/images/linkedin.png"></a></p>
+              <P><a href="https://in.linkedin.com/in/neerajkumar2013/">LinkedIn</a></P>
+            </h3>
+            <hr>
+            <h3>
+              <p class="pull-right"><a href="https://github.com/neerajkumar"><img src="/assets/images/github.png"></a></p>
+              <P><a href="https://github.com/neerajkumar" style="color:black;">Github</a></P>
+            </h3>
+            <hr>
+            <h3>
+              <p class="pull-right"><a href="https://twitter.com/bundlexec"><img src="/assets/images/twitter.png"></a></p>
+              <P><a href="https://twitter.com/bundlexec" style="color:#00aced">Twitter</a></P>
+            </h3>
+            <hr>
+            <h3>
+              <p class="pull-right"><a href="https://www.facebook.com/neerajkggn"><img src="/assets/images/facebook.png"></a></p>
+              <P><a href="https://www.facebook.com/neerajkggn" style="color:#3B5998;">Facebook</a></P>
+            </h3>
+            <hr>
+          </div>
+          <div class="sidebar">
+            <ol>
+              <li><a href="/articles/2013-12-27-Ruby-oci8_with-rails/">Ruby-oci8 with Rails</a><br></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer class="footer">
+        <div style="font-size: 13px" class="inner">
+        </div>
+      </footer>
+    </div>
+    <!--le javascript-->
+    <!--script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js')-->
+    <!--script(src= '#{locals.baseUrl}' + '/assets/javascript/jquery-twitter-plugin.js')-->
+    <script src="/assets/javascript/jquery.min.js"></script>
+    <script src="/assets/javascript/app.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://platform.linkedin.com/in.js"></script><script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-41222870-1', 'neerajk.com');
+       ga('send', 'pageview');
+    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&status=0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>
