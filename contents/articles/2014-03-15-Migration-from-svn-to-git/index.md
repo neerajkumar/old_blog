@@ -10,7 +10,7 @@ excerpt: I am a git lover, not svn. But, when I started my programming, svn was 
 ---
 I am a git lover, not svn. But, when I started my programming, svn was so popular and widespread. But the discovery of git pushed the paradigm shift in world of version control. Git is better than svn in lot of senses which could easily be delineated with the fact that most of the open source contributions and repositories are found on <a href='https://github.com'>Github</a>. <a href='https://github.com'>Github</a> could be recognized as the UI interface for git version control. 
 
-The time has changed, but yet there are many projects are still residing on svn. This article will enable you to successfully migrate from your old svn version control to new git version control with the help of few chuck of statements. The astonishing fact is that this will not lose your history too.
+The time has changed, but yet there are many projects are still residing on svn. This article will enable you to successfully migrate from your old svn version control to new git version control with the help of few chunck of statements. The astonishing fact is that this will not lose your history too.
 
 Lets say your project name is dummyapp and its residing on svn say `http://svn/Other/RubyOnRails/apps/dummyapp/trunk`.
 
