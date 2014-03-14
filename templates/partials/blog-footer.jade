@@ -3,7 +3,7 @@
     - var socialstags = _.chain(article.metadata.tags).map(function(tag) {
     -   return "#" + tag
     - }).value().join(" ")
-      a(href=article.url, class="twitter-share-button", data-url=locals.url + article.url, data-text=article.title + " #{socialstags} /via @sandee_sh", data-count="vertical"): twitter-share-button
+      a(href=article.url, class="twitter-share-button", data-url=locals.url + article.url, data-text=article.title + " #{socialstags} /via @bundlexec", data-count="vertical"): twitter-share-button
     | <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   .social
     <g:plusone size="tall" href="#{locals.url}#{article.url}"></g:plusone>
