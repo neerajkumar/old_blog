@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
   <title type="text">Neeraj Kumar</title>
-  <updated>2014-03-14T18:48:26.691Z</updated>
+  <updated>2014-03-14T19:48:02.577Z</updated>
   <link rel="alternate" type="text/html" href="http://blog.neerajk.com"></link>
   <id>http://blog.neerajk.com</id>
   <link rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/sanjeevonline/atom"></link>
   <generator uri="https://github.com/jnordberg/wintersmith" version="1.1.1">Wintersmith</generator>
+  <entry>
+    <author>
+      <name>neeraj</name>
+    </author>
+    <title type="html"><![CDATA[Successful Migration from svn to git with history]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.neerajk.com/articles/2014-03-15-Migration-from-svn-to-git/"></link>
+    <id>http://blog.neerajk.com/articles/2014-03-15-Migration-from-svn-to-git/</id>
+    <updated>2014-03-15T06:56:00.000Z</updated>
+    <published>2014-03-15T06:56:00.000Z</published>
+    <category scheme="http://blog.neerajk.com" term="ruby" telabel="ruby"></category>
+    <category scheme="http://blog.neerajk.com" term="git" telabel="git"></category>
+    <category scheme="http://blog.neerajk.com" term="svn" telabel="svn"></category>
+    <summary type="html"><![CDATA[I am a git lover, not svn. But, when I started my programming, svn was so popular and widespread. But the discovery of git pushed the paradigm shift in world of version control.]]></summary>
+    <content type="html"><![CDATA[I am a git lover, not svn. But, when I started my programming, svn was so popular and widespread. But the discovery of git pushed the paradigm shift in world of version control.]]></content>
+    <link rel="replies" type="text/html" href="http://blog.neerajk.com/articles/2014-03-15-Migration-from-svn-to-git/#disqus_thread" thr:count="0"></link>
+    <link rel="replies" type="application/atom+xml" href="http://sanjeevonline.disqus.com/articles/2014-03-15-Migration-from-svn-to-git//lastest.rss" thr:count="0"></link>
+    <thr:total>0</thr:total>
+  </entry>
   <entry>
     <author>
       <name>neeraj</name>
