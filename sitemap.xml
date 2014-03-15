@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://blog.neerajk.com</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive.html</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -26,49 +26,49 @@
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/ruby</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/git</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/svn</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Ruby</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Git</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Svn</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/archive/2014</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive/2013</loc>
-    <lastmod>2014-03-14T20:19:32.479Z</lastmod>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/archive/2014</loc>
+    <lastmod>2014-03-15T05:48:36.836Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
