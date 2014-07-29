@@ -17,7 +17,7 @@ Lets say your project name is dummyapp and its residing on svn say `http://svn/O
 1). Please go to your local svn copy on your local workstation. 
 
 ```
-cd PATH_TO_LOCAL_SVN_COPY
+cd PATH_TO_LOCAL_SVN_COPYYY
 ```
  
 2). Create a file say authors-transform.txt which will be having list of all users of current svn dummyapp application.
