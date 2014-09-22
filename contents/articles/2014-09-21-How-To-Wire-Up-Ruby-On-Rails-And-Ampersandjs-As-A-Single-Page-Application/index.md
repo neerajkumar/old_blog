@@ -34,7 +34,7 @@ npm install browserify --save-dev
 
 npm install underscore --save 
 ```
-will automatically add the depenedencies into package.json file. The package.json file will look like
+will automatically add the dependencies into package.json file. The package.json file will look like
 ```json
 {
   "name": "betfair_nav_demo",
@@ -186,7 +186,7 @@ module.exports = PageView.extend({
 ```
 Here
 1. pageTitle which is referring to page title. 
-2. template: it is referring to the template where all collection will de displayed. 
+2. template: it is referring to the template where all collection will be displayed. 
 3. render: it represents the function. The statement ```this.renderCollection(this.collection, BetfairRootView, this.getByRole('betfair-roots-list'));``` is explaining that it will render all the collection nodes in terms of BetfairRootView objects and place will be the div element with role 'betfair-roots-list'.
 4. ```this.fetchCollection()``` statement is for triggering the ajax call again if collection data is not present. 
 
@@ -199,5 +199,5 @@ templatizer["pages"]["collectionDemo"] = function tmpl_pages_collectionDemo() {
 ```
 ### Conclusion 
 ---
-Thats it. This is the basic structure and work-flow of any basic ampersand.js application with rails. The source code is residing on my github repository () and demo is available on . With the help of source code, you can get to know more about the links and navigation to different pages of the application. You can write your own business logics and bind it with your Ampersand.js application. Lot more can be done.
+That's it. This is the basic structure and work-flow of any basic ampersand.js application with rails. The source code is residing on my github repository () and demo is available on . With the help of source code, you can get to know more about the links and navigation to different pages of the application. You can write your own business logic and bind it with your Ampersand.js application. Lot more can be done.
 Thanks for reading my blog. :)
