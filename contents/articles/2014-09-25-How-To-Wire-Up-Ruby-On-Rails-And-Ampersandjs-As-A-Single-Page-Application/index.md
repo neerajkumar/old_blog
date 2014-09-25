@@ -1,7 +1,7 @@
 ---
 template: article.jade
 title: How To Wire up Ruby on Rails and Ampersand.js As a Single Page Application
-date: 2014-09-21 19:36
+date: 2014-09-25 13:36
 author: neeraj
 aliases: []
 categories: [Ruby, Rails, Ampersand.js, Single Page Application, SPA]
@@ -14,7 +14,7 @@ excerpt: How To Wire up Ruby on Rails and Ampersand.js As a Single Page Applicat
 
 This definition is correct. Ampersandjs is really a non-frameworky framework. Now question comes, <b>Why Ampersand.js?</b>. Because we love [Backbone.js](http://backbonejs.org/), and [Ampersand.js](http://ampersandjs.com) is written on the top of [Backbone.js](http://backbonejs.org/). For more details, please refer http://ampersandjs.com.  
 
-In this article, I am explaining you to build a simple single page application (not simple as much as any hello world or todo app :)). The application will be wired-up with a Rails application and will fetch all its data from rails generated APIs. In fact, behind the scene, Rails application is providing the APIs directly from https://d1zgsxlgpxt59q.cloudfront.net/exchange/betting/rest/v1/en/navigation/lhm.json. Let's start from scratch. 
+In this article, I am explaining you to build a simple single page application (not simple as much as any hello world or todo app :)) using rails and ampersand.js. The application will be wired-up with a Rails application and will fetch all its data from rails generated APIs. In fact, behind the scene, Rails application is providing the APIs directly from the file ```app/assets/javascripts/ampersandtest/data.json```. You can also fetch the data from any other application too using your web-service call. The source code is residing on my github repository [Source Code](https://github.com/neerajkumar/betfair_nav_demo) and demo is available on [Demo](http://rails-angular-ampersand.herokuapp.com/ampersand_clients). Let's start from scratch. 
 
 ### Basic Installation
 ---
@@ -132,7 +132,7 @@ module.exports = Router.extend({
     },
 });
 ```
-According to router, the homepage is residing in ```pages/home```. The home file will be 
+According to router, the homepage is residing in ```pages/home```. The home file is
 ```javascript
 var PageView = require('./base');
 var templates = require('../templates');
@@ -162,7 +162,7 @@ module.exports = Collection.extend({
     url: '/api/betfair_roots'
 });
 ```
-Now, we have come to our homepage which is also a collection-demo page and rendering the collection of root nodes. The file will be residing in ```./pages/collection-demo.js``` file. 
+Now, we have come to our homepage which is also a collection-demo page and rendering the collection of root nodes. The file is residing in ```./pages/collection-demo.js``` file. 
 ```javascript
 var PageView = require('./base');
 var templates = require('../templates');
@@ -199,5 +199,5 @@ templatizer["pages"]["collectionDemo"] = function tmpl_pages_collectionDemo() {
 ```
 ### Conclusion 
 ---
-That's it. This is the basic structure and work-flow of any basic ampersand.js application with rails. The source code is residing on my github repository () and demo is available on . With the help of source code, you can get to know more about the links and navigation to different pages of the application. You can write your own business logic and bind it with your Ampersand.js application. Lot more can be done.
+That's it. This is the basic structure and work-flow of any basic ampersand.js application with rails. The source code is residing on my github repository [Source Code](https://github.com/neerajkumar/betfair_nav_demo) and demo is available on [Demo](http://rails-angular-ampersand.herokuapp.com/ampersand_clients). With the help of source code, you can get to know more about the links and navigation to different pages of the application. You can write your own business logic and bind it with your Ampersand.js application. Lot more can be done.
 Thanks for reading my blog. :)
