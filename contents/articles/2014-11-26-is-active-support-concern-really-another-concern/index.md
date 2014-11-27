@@ -1,7 +1,7 @@
 ---
 template: article.jade
 title: Is ActiveSupport::Concern really Another Concern?
-date: 2014-11-26 00:04
+date: 2014-11-26 00:09
 author: neeraj
 aliases: []
 categories: [Ruby, Rails, ActiveSupport, ActiveSupport Concern]
