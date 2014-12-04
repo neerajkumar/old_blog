@@ -1,5 +1,5 @@
 {
     "title":"Tag",
-    "currentTag": "git",
+    "currentTag": "campfire",
     "template": "tag.jade"
 }

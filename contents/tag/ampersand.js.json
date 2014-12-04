@@ -1,5 +1,5 @@
 {
     "title":"Tag",
-    "currentTag": "git",
+    "currentTag": "ampersand.js",
     "template": "tag.jade"
 }

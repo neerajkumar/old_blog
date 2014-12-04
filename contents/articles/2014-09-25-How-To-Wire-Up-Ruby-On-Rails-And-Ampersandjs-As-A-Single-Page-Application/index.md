@@ -5,7 +5,7 @@ date: 2014-09-25 13:36
 author: neeraj
 aliases: []
 categories: [Ruby, Rails, Ampersand.js, Single Page Application, SPA]
-tags: [ruby, rails, ampersand.js, single page application]
+tags: [ruby, rails, ampersand.js, spa, git]
 excerpt: How To Wire up Ruby on Rails and Ampersand.js As a Single Page Application
 ---
 
