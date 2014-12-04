@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
   <title type="text">Neeraj Kumar</title>
-  <updated>2014-11-27T18:51:53.589Z</updated>
+  <updated>2014-12-04T13:02:42.365Z</updated>
   <link rel="alternate" type="text/html" href="http://blog.neerajk.com"></link>
   <id>http://blog.neerajk.com</id>
   <link rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/sanjeevonline/atom"></link>
@@ -36,7 +36,8 @@
     <category scheme="http://blog.neerajk.com" term="ruby" telabel="ruby"></category>
     <category scheme="http://blog.neerajk.com" term="rails" telabel="rails"></category>
     <category scheme="http://blog.neerajk.com" term="ampersand.js" telabel="ampersand.js"></category>
-    <category scheme="http://blog.neerajk.com" term="single page application" telabel="single page application"></category>
+    <category scheme="http://blog.neerajk.com" term="spa" telabel="spa"></category>
+    <category scheme="http://blog.neerajk.com" term="git" telabel="git"></category>
     <summary type="html"><![CDATA[How To Wire up Ruby on Rails and Ampersand.js As a Single Page Application]]></summary>
     <content type="html"><![CDATA[How To Wire up Ruby on Rails and Ampersand.js As a Single Page Application]]></content>
     <link rel="replies" type="text/html" href="http://blog.neerajk.com/articles/2014-09-25-How-To-Wire-Up-Ruby-On-Rails-And-Ampersandjs-As-A-Single-Page-Application/#disqus_thread" thr:count="0"></link>

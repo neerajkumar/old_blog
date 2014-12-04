@@ -52,7 +52,7 @@
                   <li><a href="/tag/active_support.html">active_support</a></li>
                   <li><a href="/tag/ampersand.js.html">ampersand.js</a></li>
                   <li><a href="/tag/basecamp.html">basecamp</a></li>
-                  <li><a href="/tag/campfire.html">campfire</a></li>
+                  <li class="active"><a href="/tag/campfire.html">campfire</a></li>
                   <li><a href="/tag/capistrano.html">capistrano</a></li>
                   <li><a href="/tag/git.html">git</a></li>
                   <li><a href="/tag/hubot.html">hubot</a></li>
@@ -77,8 +77,43 @@
       <div class="row">
         <div class="col-lg-9 col-sm-9">
           <div style="text-align: center">
-            <div id="page_subtitle"> Posts tagged with : c</div>
-          </div><a href="/archive.html" id="archive">Visit the archives!</a>
+            <div id="page_subtitle"> Posts tagged with : campfire</div>
+          </div>
+          <article class="post shadow">
+            <header>
+              <h1><a href="/articles/2014-06-18-Smart-Deployment-using-Hubot/">Smart Deployment using Hubot</a></h1>
+              <footer class="footer">
+                <div style="font-size: 13px" class="inner">Posted by&nbsp;<span class="author"><a href="mailto:neeraj.kumar@gmail.com">Neeraj Kumar</a></span>&nbsp;
+                  | on&nbsp;<a href="/archive.html" class="back">June 18 2014&nbsp;</a>|&nbsp;<a href="http://blog.neerajk.com/articles/2014-06-18-Smart-Deployment-using-Hubot/#disqus_thread">Comments</a>| Tags :&nbsp;<a href="/tag/ruby.html" rel="category tag" title="View all posts in 'ruby'">ruby</a>&nbsp;<a href="/tag/rails.html" rel="category tag" title="View all posts in 'rails'">rails</a>&nbsp;<a href="/tag/hubot.html" rel="category tag" title="View all posts in 'hubot'">hubot</a>&nbsp;<a href="/tag/capistrano.html" rel="category tag" title="View all posts in 'capistrano'">capistrano</a>&nbsp;<a href="/tag/basecamp.html" rel="category tag" title="View all posts in 'basecamp'">basecamp</a>&nbsp;<a href="/tag/campfire.html" rel="category tag" title="View all posts in 'campfire'">campfire</a>&nbsp;
+                </div>
+              </footer>
+              <hr/>
+              <section class="content"><p>Github is an invariably well-known name in the world of open source. Githut consistently provides a propitious and favorable platforms for any betterment, reform or innovation in the technology which could also discern as an your open source contribution. <a href='https://hubot.github.com'>Hubot</a> is also one of such examples which posses the sovereign potential to metamorphose the process of deployment of rails apps. I came across the term hubot last year and I also heard that numerous enter-prize level organizations benefiting their processes by hubot. My curiosity enabled me up-to the extent that now I am writing a blog :).</p>
+<p><a href='https://hubot.github.com'>Hubot</a> describes its work as an amazing campfire bot who plays the vital role of an user, deployed on heroku, and will add into your campfire chat room as a normal user through heroku URL. However, the heroku app will be revealing as an error page which could cause a confusion in your mind about credibility of the chat bot.</p>
+<p>First of all, deploy a dummy app on heroku which could be initiated using this command. </p>
+<pre><code><span class="title">gem</span> install heroku</code></pre>
+<p>I am assuming here that you are familiar some what with heroku and have created your profile and deployed some app on heroku. If not, please refer <a href="https://id.heroku.com/signup">https://id.heroku.com/signup</a> or <a href="https://devcenter.heroku.com/articles/git">https://devcenter.heroku.com/articles/git</a>.
+Then setup the heroku app:</p>
+<pre><code><span class="title">heroku</span> create <span class="comment">--stack </span>
+<span class="title">git</span> push heroku master 
+<span class="title">heroku</span> ps:scale web=<span class="number">1</span></code></pre>
+<p>Now, you will need to setup your HEROKU_URL variable. </p>
+<pre><code><span class="title">heroku</span> config:add <span class="type">HEROKU_URL</span>=</code></pre>
+<p><h4 style='float: right'>Work in Progress ... </h4><br/><br/></p>
+</section>
+              <hr/>
+              <div id="social_bottom" class="topsocial">
+                <div class="social"><a href="/articles/2014-06-18-Smart-Deployment-using-Hubot/" data-url="http://blog.neerajk.com/articles/2014-06-18-Smart-Deployment-using-Hubot/" data-text="Smart Deployment using Hubot #ruby #rails #hubot #capistrano #basecamp #campfire /via @bundlexec" data-count="vertical" class="twitter-share-button">
+                    <twitter-share-button></twitter-share-button></a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                </div>
+                <div class="social"><g:plusone size="tall" href="http://blog.neerajk.com/articles/2014-06-18-Smart-Deployment-using-Hubot/"></g:plusone></div>
+                <div class="social"><script type="IN/Share" data-url="http://blog.neerajk.com/articles/2014-06-18-Smart-Deployment-using-Hubot/" data-counter="top"></script></div>
+                <div class="social">
+                  <div data-href="http://blog.neerajk.com/articles/2014-06-18-Smart-Deployment-using-Hubot/" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false" class="fb-like"></div>
+                </div>
+              </div>
+            </header>
+          </article><a href="/archive.html" id="archive">Visit the archives!</a>
         </div>
         <div id="sidebar" class="col-lg-3 col-sm-3">
           <div class="sidebar-header"><a href="https://github.com/neerajkumar"><img src="/assets/images/13.jpg" class="img-circle img-responsive"/></a>

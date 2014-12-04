@@ -49,7 +49,7 @@
             <ul class="nav navbar-nav">
               <li class="dropdown active"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tags<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="/tag/active_support.html">active_support</a></li>
+                  <li class="active"><a href="/tag/active_support.html">active_support</a></li>
                   <li><a href="/tag/ampersand.js.html">ampersand.js</a></li>
                   <li><a href="/tag/basecamp.html">basecamp</a></li>
                   <li><a href="/tag/campfire.html">campfire</a></li>
@@ -77,8 +77,36 @@
       <div class="row">
         <div class="col-lg-9 col-sm-9">
           <div style="text-align: center">
-            <div id="page_subtitle"> Posts tagged with : c</div>
-          </div><a href="/archive.html" id="archive">Visit the archives!</a>
+            <div id="page_subtitle"> Posts tagged with : active_support</div>
+          </div>
+          <article class="post shadow">
+            <header>
+              <h1><a href="/articles/2014-11-26-is-active-support-concern-really-another-concern/">Is ActiveSupport::Concern really Another Concern?</a></h1>
+              <footer class="footer">
+                <div style="font-size: 13px" class="inner">Posted by&nbsp;<span class="author"><a href="mailto:neeraj.kumar@gmail.com">Neeraj Kumar</a></span>&nbsp;
+                  | on&nbsp;<a href="/archive.html" class="back">November 26 2014&nbsp;</a>|&nbsp;<a href="http://blog.neerajk.com/articles/2014-11-26-is-active-support-concern-really-another-concern/#disqus_thread">Comments</a>| Tags :&nbsp;<a href="/tag/ruby.html" rel="category tag" title="View all posts in 'ruby'">ruby</a>&nbsp;<a href="/tag/rails.html" rel="category tag" title="View all posts in 'rails'">rails</a>&nbsp;<a href="/tag/active_support.html" rel="category tag" title="View all posts in 'active_support'">active_support</a>&nbsp;
+                </div>
+              </footer>
+              <hr/>
+              <section class="content"><p>In Ruby world, <a href="/articles/2014-11-26-is-active-support-concern-really-another-concern/guides.rubyonrails.org">Rails</a> is a well known web-framework and <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a> is an integrated component. <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a> is a ruby gem which comes with rails by default. But, we can also use this library or gem separately. <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a> is very easy to understand upto the extend that if you are planning to read the source code of rails, then start with <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a>. So, today I am going to throw some light on <a href="https://github.com/rails/rails/blob/master/activesupport/lib/active_support/concern.rb">ActiveSupport::Concern</a> which is also one of the component of <a href="https://github.com/rails/rails/tree/master/activesupport">ActiveSupport</a>. Is ActiveSupport::Concern really Another Concern?</p>
+<p>This post is for those who are new to ActiveSupport. Who constantly do utility work like encoding, or decoding JSON, generating random number, number to currency conversion etc. But never got the chance to find out the reason behind this. Have you ever looked into the source code of any rubygem where you found the statement like <code>extend ActiveSupport::Concern</code>. If yes, are you familiar with this statement? Why do we use this? Trust me <a href="https://github.com/rails/rails/blob/master/activesupport/lib/active_support/concern.rb">ActiveSupport::Concern</a> is not a concern, but to make your life easy. </p>
+<p>ActiveSupport::Concern is useful in mixin or modules. It is more useful whenever you are building your own rubygem. </p>
+<h3 id="without-activesupport-concern">Without ActiveSupport::Concern</h3>
+
+                <p class="read-more"><a href="/articles/2014-11-26-is-active-support-concern-really-another-concern/">More...</a></p></section>
+              <hr/>
+              <div id="social_bottom" class="topsocial">
+                <div class="social"><a href="/articles/2014-11-26-is-active-support-concern-really-another-concern/" data-url="http://blog.neerajk.com/articles/2014-11-26-is-active-support-concern-really-another-concern/" data-text="Is ActiveSupport::Concern really Another Concern? #ruby #rails #active_support /via @bundlexec" data-count="vertical" class="twitter-share-button">
+                    <twitter-share-button></twitter-share-button></a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+                </div>
+                <div class="social"><g:plusone size="tall" href="http://blog.neerajk.com/articles/2014-11-26-is-active-support-concern-really-another-concern/"></g:plusone></div>
+                <div class="social"><script type="IN/Share" data-url="http://blog.neerajk.com/articles/2014-11-26-is-active-support-concern-really-another-concern/" data-counter="top"></script></div>
+                <div class="social">
+                  <div data-href="http://blog.neerajk.com/articles/2014-11-26-is-active-support-concern-really-another-concern/" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false" class="fb-like"></div>
+                </div>
+              </div>
+            </header>
+          </article><a href="/archive.html" id="archive">Visit the archives!</a>
         </div>
         <div id="sidebar" class="col-lg-3 col-sm-3">
           <div class="sidebar-header"><a href="https://github.com/neerajkumar"><img src="/assets/images/13.jpg" class="img-circle img-responsive"/></a>
