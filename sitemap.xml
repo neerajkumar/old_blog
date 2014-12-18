@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://blog.neerajk.com</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive.html</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -44,145 +44,145 @@
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/ruby</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/rails</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/tag/ampersand.js</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/tag/spa</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/tag/git</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/tag/svn</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/hubot</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/capistrano</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/basecamp</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/campfire</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/tag/ampersand.js</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/tag/spa</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/tag/git</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/tag/active_support</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/tag/svn</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Ruby</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/Rails</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/Ampersand.js</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/Single Page Application</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/SPA</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/Git</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blog.neerajk.com/category/Svn</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Hubot</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/Capistrano</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/Rails</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/Ampersand.js</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/Single Page Application</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/SPA</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/ActiveSupport</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/category/ActiveSupport Concern</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/Git</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://blog.neerajk.com/category/Svn</loc>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive/2013</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://blog.neerajk.com/archive/2014</loc>
-    <lastmod>2014-12-18T14:42:15.628Z</lastmod>
+    <lastmod>2014-12-18T14:47:26.677Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
