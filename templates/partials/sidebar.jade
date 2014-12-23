@@ -10,13 +10,18 @@
 - var map = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 div.sidebar-header
-  a(href="https://github.com/neerajkumar")
+  a(href=locals.baseUrl + '/about.html')
     img(src="/assets/images/13.jpg").img-circle.img-responsive
   hr
   h3
     p(class="pull-right"): a(href=locals.baseUrl + '/about.html')
     P
       a(href=locals.baseUrl + '/about.html') About
+  hr
+  h3
+    p(class="pull-right"): a(href=locals.baseUrl + '/award_and_honor.html')
+    P
+      a(href=locals.baseUrl + '/award_and_honor.html') Award and Honors
   hr
   h3
     p(class="pull-right"): a(href="https://in.linkedin.com/in/neerajkumar2013/"): img(src="/assets/images/linkedin.png")
