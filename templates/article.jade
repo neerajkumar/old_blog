@@ -21,7 +21,7 @@ block content
           | | Tags :&nbsp;
           each tag in page.metadata.tags
             a(href=locals.baseUrl + "/tag/#{tag}.html", rel="category tag", title="View all posts in '#{tag}'")
-              = tag
+              = tag + " "
     hr
     - console.log(page)
     section.content!= page.html
