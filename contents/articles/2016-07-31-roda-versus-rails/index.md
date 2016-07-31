@@ -30,4 +30,4 @@ I am assuming that you have some basic knowledge of Roda and have built at least
 
 ###Conclusion
 ---
-I think every rails programmer should [Roda](http://roda.jeremyevans.net/) once. It will provide you a better understanding and knowledge about different rubygems. You can get the opportunity to dig deeper into ruby libraries and their usage too. 
+I think every rails programmer should try [Roda](http://roda.jeremyevans.net/) once. It will provide you a better understanding and knowledge about different rubygems. You can get the opportunity to dig deeper into ruby libraries and their usage too. 
