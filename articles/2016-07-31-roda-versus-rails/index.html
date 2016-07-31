@@ -82,38 +82,65 @@
         <div class="col-lg-9 col-sm-9">
           <article class="post shadow">
             <div>
-              <h1>Ruby-oci8 with Rails</h1>
+              <h1>Roda versus Rails</h1>
               <footer class="footer">
-                <div style="font-size: 13px" class="inner">Posted by&nbsp;<span class="author"><a href="mailto:neeraj.kumar@gmail.com">Neeraj Kumar</a></span>| on&nbsp;<a href="/archive.html" class="back">November 29, 2013&nbsp;</a>| Tags :&nbsp;<a href="/tag/ruby.html" rel="category tag" title="View all posts in 'ruby'">ruby </a>
+                <div style="font-size: 13px" class="inner">Posted by&nbsp;<span class="author"><a href="mailto:neeraj.kumar@gmail.com">Neeraj Kumar</a></span>| on&nbsp;<a href="/archive.html" class="back">July 31, 2016&nbsp;</a>| Tags :&nbsp;<a href="/tag/ruby.html" rel="category tag" title="View all posts in 'ruby'">ruby </a><a href="/tag/rails.html" rel="category tag" title="View all posts in 'rails'">rails </a><a href="/tag/Roda.html" rel="category tag" title="View all posts in 'Roda'">Roda </a><a href="/tag/jeremy evans.html" rel="category tag" title="View all posts in 'jeremy evans'">jeremy evans </a>
                 </div>
               </footer>
             </div>
             <hr/>
-            <section class="content"><p><a href="http://rubygems.org/gems/ruby-oci8">Ruby-oci8</a> is a rubygem which we use to build the connection with oracle DB in your rails application. But installation of <a href="http://rubygems.org/gems/ruby-oci8">ruby-oci8</a> on linux or mac is not easy, while its a bit tricky. When I started to configure it on my mac first time, it consumed the entire day to google and configure. Therefore, I am trying to explain you the local configuration and installation here. However this post is only for linux and mac, but not for windows.</p>
-<p>Hmmmmm, let&#39;s start with the basics. I am assuming that you are using rails-3.0+ and ruby-1.8.7+. As we do with Rails-3 applications, We maintain a Gemfile and in order to install gems, we run bundle install. But, if you have specified ruby-oci8 gem, then just wait for few moments. This will be failed unless you have proper configuration.</p>
-<p>1). You will need to install and configure <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a> first. Please download and install <a href="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">oracle instant client</a>. The directions for installation is already given, but be careful to choose correct instant client version which could differ according to your machine.</p>
-<p>2). Next, you will need to set your environment. Set environment variable LD_LIBRARY_PATH (DYLD_LIBRARY_PATH in case of mac). Just run this command on your terminal or console.</p>
-<p>In case of Linux</p>
-<pre><code> <span class="keyword">export</span> LD_LIBRARY_PATH=<span class="string">"/usr/lib/oracle/11.2/client64/"</span></code></pre>
-<p> In case of Mac</p>
-<pre><code> <span class="keyword">export</span> DYLD_LIBRARY_PATH=<span class="string">"/usr/local/oracle/instantclient_11_2"</span></code></pre>
-<p> Or, you can add this command in your .bashrc or .zshrc file too and then run the command <code>source .bashrc</code> or <code>source .zshrc</code>.</p>
-<p> This will set the value of environment variable LD_LIBRARY_PATH as &quot;/usr/lib/oracle/11.2/client64/&quot;.</p>
-<p> Also, check that this location does have the client installed. If not, find out where it is and create a soft link to here. ruby-oci8 expects to find it at this location “/usr/lib/oracle/….”.</p>
-<p> 3). In this last step, you need to make a symlink. Just run this command</p>
-<pre><code>sudo <span class="built_in">ln</span> -s /usr/<span class="built_in">include</span>/linux/ /usr/<span class="built_in">include</span>/sysclient</code></pre>
-<p>In last, it must work after this. If its not working, then just drop a comment here, may be I could help you more.</p>
+            <section class="content"><p>Few days back, I heard about <a href="http://roda.jeremyevans.net/">Roda</a> which could suppose to be a replacement of <a href="/articles/2016-07-31-roda-versus-rails/guides.rubyonrails.org">Rails</a>. <a href="http://roda.jeremyevans.net/">Roda</a> is a routing tree web toolkit, designed for building fast and maintainable web applications in ruby. The creator of <a href="http://roda.jeremyevans.net/">Roda</a> is <a href="https://github.com/jeremyevans">Jeremy Evans</a>. <code>Rails is dead</code> we hear it every years and it is more widespread after twitter&#39;s jump from <a href="/articles/2016-07-31-roda-versus-rails/guides.rubyonrails.org">Rails</a> to Scala. </p>
+<p>According to <a href="https://github.com/jeremyevans">Jeremy Evans</a>, <a href="http://roda.jeremyevans.net/">Roda</a> provides Simplicity, Reliability, Extensibility and Performance. <a href="http://roda.jeremyevans.net/">Roda</a> has low per-request overhead, and the use of a routing tree and intelligent caching of internal datastructures makes it significantly faster than popular ruby web frameworks. But as per my opinion, Rails is good and getting more mature, stable and popularity every year. Here I will compare these two over some points.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<hr>
+<p>I am assuming that you have some basic knowledge of Roda and have built at least one app in Roda. Otherwise, please have a look at <a href="http://roda.jeremyevans.net">http://roda.jeremyevans.net</a>.</p>
+<h3 id="comparison">Comparison</h3>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Rails</th>
+<th style="text-align:center">Roda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="/articles/2016-07-31-roda-versus-rails/guides.rubyonrails.org">Rails</a> is a stable framework which is very old and already having a large community support. Also it supports lot of different rubygems.</td>
+<td style="text-align:center">Most of rubygems are independent ruby libraries. Therefore all rubygems which are not tightly tied with Rails and activerecord can be used with <a href="http://roda.jeremyevans.net/">Roda</a> too. Additionally, <a href="http://roda.jeremyevans.net/">Roda</a> has its own compatible rubygems e.g. roda-i18n, newrelic-roda, roda-basic-auth, roda-rest_api, rodauth etc. But still these are not having proper documentation.</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="https://github.com/plataformatec/devise">devise</a> is a rubygem which we use for our authentication purpose. It provides not only the authentication, but it also provides lot of flexibility while integration. It also opens the scope of integration of authentication of different social networking e.g. facebook, twitter, google etc.</td>
+<td style="text-align:center"><a href="http://roda.jeremyevans.net/">Roda</a> also comes with <a href="https://github.com/beno/roda-auth">roda-auth</a> which provides simple authentication. It contains omniauth, but not maintaining any documentation to implement in <a href="http://roda.jeremyevans.net/">Roda</a> app.</td>
+</tr>
+<tr>
+<td style="text-align:left">The size of core contributors (with at least 3 commits) is more than 100.</td>
+<td style="text-align:center">The size of core contributors (with at least 3 commits) is significantly lesser. </td>
+</tr>
+<tr>
+<td style="text-align:left">It is good for mid level as well as bigger application.</td>
+<td style="text-align:center">As compared over <a href="http://roda.jeremyevans.net/why.html">http://roda.jeremyevans.net/why.html</a> with Sinatra, <a href="http://roda.jeremyevans.net/">Roda</a> is good for small applications.</td>
+</tr>
+<tr>
+<td style="text-align:left">People are having more interest to search about <a href="/articles/2016-07-31-roda-versus-rails/guides.rubyonrails.org">Rails</a>.</td>
+<td style="text-align:center">Interest over <a href="http://roda.jeremyevans.net/">Roda</a> is significantly less.</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/assets/images/roda-vs-rails.png" alt="Interest over time of Roda and Ruby on Rails" width="740" height="338"></p>
+<h3 id="conclusion">Conclusion</h3>
+<hr>
+<p>I think every rails programmer should <a href="http://roda.jeremyevans.net/">Roda</a> once. It will provide you a better understanding and knowledge about different rubygems. You can get the opportunity to dig deeper into ruby libraries and their usage too. </p>
 </section>
             <hr/>
             <div id="social_bottom" class="topsocial">
-              <div class="social"><a href="/articles/2013-12-27-Ruby-oci8_with-rails/" data-url="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-text="Ruby-oci8 with Rails #ruby /via @bundlexec" data-count="vertical" class="twitter-share-button">
+              <div class="social"><a href="/articles/2016-07-31-roda-versus-rails/" data-url="http://blog.neerajk.com/articles/2016-07-31-roda-versus-rails/" data-text="Roda versus Rails #ruby #rails #Roda #jeremy evans /via @bundlexec" data-count="vertical" class="twitter-share-button">
                   <twitter-share-button></twitter-share-button></a>
                 <script src="//platform.twitter.com/widgets.js"></script>
               </div>
-              <div class="social"><g:plusone size="tall" href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/"></g:plusone></div>
-              <div class="social"><script type="IN/Share" data-url="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-counter="top"></script></div>
+              <div class="social"><g:plusone size="tall" href="http://blog.neerajk.com/articles/2016-07-31-roda-versus-rails/"></g:plusone></div>
+              <div class="social"><script type="IN/Share" data-url="http://blog.neerajk.com/articles/2016-07-31-roda-versus-rails/" data-counter="top"></script></div>
               <div class="social">
-                <div data-href="http://blog.neerajk.com/articles/2013-12-27-Ruby-oci8_with-rails/" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false" class="fb-like"></div>
+                <div data-href="http://blog.neerajk.com/articles/2016-07-31-roda-versus-rails/" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false" class="fb-like"></div>
               </div>
             </div>
             <hr/>
