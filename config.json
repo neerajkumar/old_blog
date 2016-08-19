@@ -2,7 +2,7 @@
     "locals": {
         "url": "http://blog.neerajk.com",
         "domain": "blog.neerajk.com",
-        "baseUrl": "",
+        "baseUrl": "http://blog.neerajk.com",
         "name": "Neeraj Kumar",
         "owner": "Neeraj Kumar",
         "author": "neeraj",

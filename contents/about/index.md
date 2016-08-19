@@ -43,6 +43,13 @@ There are much more. Please have a look at my github profile.
 |*Castle Rock Research* | *Programmer* | *Sep, 2009 - Sep, 2011* |
 |*Qualtech Consultants* | *Programmer* | *Nov, 2006 - Aug, 2011* |
 |*Computer Associates* | *Programmer* | *April, 2006 - Oct, 2006* |
+<br/><br/>
+
+## RubyConfIndia2010
+---
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/2FDxZKT7nzhVd7" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/neerajkumar09/the-ruby-on-rails-i18n-core-api" title="The Ruby On Rails I18n Core Api" target="_blank">The Ruby On Rails I18n Core Api</a> </strong> By <strong><a target="_blank" href="//www.slideshare.net/neerajkumar09">Neeraj Kumar</a></strong> </div>
+<img src="/assets/images/IMG_3344.JPG" alt="RubyConfIndia2010-01" width="368" height="258">
+<img src="/assets/images/IMG_3345.JPG" alt="RubyConfIndia2010-02" width="368" height="258">
 
 <br/><br/>
 ## Skills
