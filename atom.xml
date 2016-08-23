@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
   <title type="text">Neeraj Kumar</title>
-  <updated>2016-08-22T06:43:54.177Z</updated>
+  <updated>2016-08-23T14:02:15.360Z</updated>
   <link rel="alternate" type="text/html" href="http://blog.neerajk.com"></link>
   <id>http://blog.neerajk.com</id>
   <link rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/sanjeevonline/atom"></link>
   <generator uri="https://github.com/jnordberg/wintersmith" version="1.1.1">Wintersmith</generator>
+  <entry>
+    <author>
+      <name>neeraj</name>
+    </author>
+    <title type="html"><![CDATA[Associate with ActiveResourceAssociatable]]></title>
+    <link rel="alternate" type="text/html" href="http://blog.neerajk.com/articles/2016-08-23-associate-with-active-resource-associatable/"></link>
+    <id>http://blog.neerajk.com/articles/2016-08-23-associate-with-active-resource-associatable/</id>
+    <updated>2016-08-23T11:58:00.000Z</updated>
+    <published>2016-08-23T11:58:00.000Z</published>
+    <category scheme="http://blog.neerajk.com" term="ruby" telabel="ruby"></category>
+    <category scheme="http://blog.neerajk.com" term="rails" telabel="rails"></category>
+    <category scheme="http://blog.neerajk.com" term="ActiveRecord" telabel="ActiveRecord"></category>
+    <category scheme="http://blog.neerajk.com" term="ActiveResource" telabel="ActiveResource"></category>
+    <category scheme="http://blog.neerajk.com" term="ActiveResourceAssociatable" telabel="ActiveResourceAssociatable"></category>
+    <summary type="html"><![CDATA[ActiveRecord and ActiveResource are homogeneous in nature. But ActiveResource is reserved for APIs. ActiveResourceAssociatable follows ActiveRecord's pattern and provides similar association pattern. However it could be achieved by customized methods in models, but ActiveResourceAssociatable provides smarter way. Because world is expanding with smarter folks and a smart folk adopts smarter way of working...]]></summary>
+    <content type="html"><![CDATA[ActiveRecord and ActiveResource are homogeneous in nature. But ActiveResource is reserved for APIs. ActiveResourceAssociatable follows ActiveRecord's pattern and provides similar association pattern. However it could be achieved by customized methods in models, but ActiveResourceAssociatable provides smarter way. Because world is expanding with smarter folks and a smart folk adopts smarter way of working...]]></content>
+    <link rel="replies" type="text/html" href="http://blog.neerajk.com/articles/2016-08-23-associate-with-active-resource-associatable/#disqus_thread" thr:count="0"></link>
+    <link rel="replies" type="application/atom+xml" href="http://neerajkumar.disqus.com/articles/2016-08-23-associate-with-active-resource-associatable//lastest.rss" thr:count="0"></link>
+    <thr:total>0</thr:total>
+  </entry>
   <entry>
     <author>
       <name>neeraj</name>
