@@ -16,6 +16,7 @@ I have contributed in open source and will always love to contribute because I b
 ---
 |                                                  |                          |                |
 |:------------------------------------------------|:------------------------:|:--------------:|
+|**active_resource_associatable** | *https://rubygems.org/gems/active_resource_associatable* | *https://github.com/neerajkumar/active_resource_associatable* |
 |**roo** | *https://rubygems.org/gems/roo* | *https://github.com/neerajkumar/roo* |
 |**multirb** | *https://rubygems.org/gems/multirb* | *https://github.com/neerajkumar/multirb* |
 |**ubiquitous_env** | *https://rubygems.org/gems/ubiquitous_env* | *https://github.com/neerajkumar/ubiquitous_env* |
