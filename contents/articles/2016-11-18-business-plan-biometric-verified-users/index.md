@@ -31,4 +31,4 @@ All other details about the DB architecture, technical architecture, flow chart,
 The DB architecture, Proof of Concept and Techical Architecture files are in [data](https://github.com/neerajkumar/biometric-verify/tree/master/data) directory. [data](https://github.com/neerajkumar/biometric-verify/tree/master/data) directory also contains the flow charts and some sample images files.
 
 ### Sample Credentials
-For demo purpose, you can use a sample credential of a company i.e. radhadevi98@gmail.com/password. 
+For demo purpose, you can use a sample credential of a company i.e. neeraj.kumar@gmail.com/password. 
