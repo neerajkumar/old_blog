@@ -24,5 +24,8 @@
         "index_articles": 3,
         "title": "Neeraj Kumar",
 	"urlTitle": "(neerajk.com)"
+    },
+    "require": {
+	"_": "underscore"
     }
 }
