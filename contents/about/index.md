@@ -14,17 +14,18 @@ I have contributed in open source and will always love to contribute because I b
 <br/><br/>
 ## Open Source Contribution
 ---
-|                                                  |                          |                |
-|:------------------------------------------------|:------------------------:|:--------------:|
-|**active_resource_associatable** | *https://rubygems.org/gems/active_resource_associatable* | *https://github.com/neerajkumar/active_resource_associatable* |
-|**roo** | *https://rubygems.org/gems/roo* | *https://github.com/neerajkumar/roo* |
-|**multirb** | *https://rubygems.org/gems/multirb* | *https://github.com/neerajkumar/multirb* |
-|**ubiquitous_env** | *https://rubygems.org/gems/ubiquitous_env* | *https://github.com/neerajkumar/ubiquitous_env* |
-|**ministry_of_state** | *https://rubygems.org/gems/ministry_of_state* | *https://github.com/neerajkumar/ministry_of_state* |
-|**active_merchant** | | *https://github.com/neerajkumar/active_merchant* |
-|**Jquery-Rich-Text-Editor** | | *https://github.com/neerajkumar/Jquery-Rich-Text-Editor* |
-|**new_emacs** | | *https://github.com/neerajkumar/new_emacs* |
-|**dot.files** | | *https://github.com/neerajkumar/dot.files* |
+|                                                 |                |
+|:------------------------------------------------|:--------------:|
+|[**active_resource_changeable**](https://rubygems.org/gems/active_resource_changeable) | *https://github.com/neerajkumar/active_resource_changeable* |
+|[**active_resource_associatable**](https://rubygems.org/gems/active_resource_associatable) | *https://github.com/neerajkumar/active_resource_associatable* |
+|[**roo**](https://rubygems.org/gems/roo) | *https://github.com/neerajkumar/roo* |
+|[**multirb**](https://rubygems.org/gems/multirb) | *https://github.com/neerajkumar/multirb* |
+|[**ubiquitous_env**](https://rubygems.org/gems/ubiquitous_env) | *https://github.com/neerajkumar/ubiquitous_env* |
+|[**ministry_of_state**](https://rubygems.org/gems/ministry_of_state) | *https://github.com/neerajkumar/ministry_of_state* |
+|**active_merchant** | *https://github.com/neerajkumar/active_merchant* |
+|**Jquery-Rich-Text-Editor** | *https://github.com/neerajkumar/Jquery-Rich-Text-Editor* |
+|**new_emacs** | *https://github.com/neerajkumar/new_emacs* |
+|**dot.files** | *https://github.com/neerajkumar/dot.files* |
 
 There are much more. Please have a look at my github profile.
 <br/><br/>
@@ -42,7 +43,7 @@ There are much more. Please have a look at my github profile.
 |*Saviance Technologies* | *Programmer* | *March, 2014 - June, 2014* |
 |*McKinsey & Company* | *Programmer* | *Oct, 2011 - Feb, 2014* |
 |*Castle Rock Research* | *Programmer* | *Sep, 2009 - Sep, 2011* |
-|*Qualtech Consultants* | *Programmer* | *Nov, 2006 - Aug, 2011* |
+|*Qualtech Consultants* | *Programmer* | *Nov, 2006 - Aug, 2009* |
 |*Computer Associates* | *Programmer* | *April, 2006 - Oct, 2006* |
 <br/><br/>
 
