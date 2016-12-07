@@ -59,7 +59,7 @@ There are much more. Please have a look at my github profile.
 |                                                  |                          |                |
 |:------------------------------------------------|:------------------------:|:--------------:|
 |**Ruby** | **Ruby on Rails** | **Javascript** |
-|**JQuery** | **Angular.js** | 
+|**JQuery** | **AngularJS** | **ReactJS**
 <br/><br/>
 ## Awards and Honors
 ---
