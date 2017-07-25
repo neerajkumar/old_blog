@@ -12,10 +12,10 @@
         "googleSiteVerification": "",
         "keywords": ["geek","web","java","spring","spring batch","spring batch in action","node.js","git","ruby","svn","subversion"],
         "feeds": {
-            "feed": "http://feeds.feedburner.com/sanjeevonline/feed",
-            "rss": "http://feeds.feedburner.com/sanjeevonline/rss",
-            "atom": "http://feeds.feedburner.com/sanjeevonline/atom",
-            "comments": "http://feeds.feedburner.com/sanjeevonline/comments"
+            "feed": "http://feeds.feedburner.com/neerajkumar/feed",
+            "rss": "http://feeds.feedburner.com/neerajkumar/rss",
+            "atom": "http://feeds.feedburner.com/neerajkumar/atom",
+            "comments": "http://feeds.feedburner.com/neerajkumar/comments"
         },
         "disqus": {
             "url": "http://neerajkumar.disqus.com",
