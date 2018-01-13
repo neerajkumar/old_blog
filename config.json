@@ -1,16 +1,16 @@
 {
     "locals": {
-        "url": "http://blog.neerajk.com",
-        "domain": "blog.neerajk.com",
-        "baseUrl": "http://blog.neerajk.com",
-        "name": "Neeraj Kumar",
+        "url": "http://wiki11.com",
+        "domain": "wiki11.com",
+        "baseUrl": "http://wiki11.com",
+        "name": "wiki11.com",
         "owner": "Neeraj Kumar",
         "author": "neeraj",
         "description": "Neeraj Kumar",
         "generator": "Wintersmith",
         "language": "en-EN",
         "googleSiteVerification": "",
-        "keywords": ["geek","web","java","spring","spring batch","spring batch in action","node.js","git","ruby","svn","subversion"],
+        "keywords": [],
         "feeds": {
             "feed": "http://feeds.feedburner.com/neerajkumar/feed",
             "rss": "http://feeds.feedburner.com/neerajkumar/rss",
@@ -22,8 +22,8 @@
             "shortname": "neerajkumar"
         },
         "index_articles": 3,
-        "title": "Neeraj Kumar",
-	"urlTitle": "(neerajk.com)"
+        "title": "wiki11.com",
+	"urlTitle": "(wiki11.com)"
     },
     "require": {
 	"_": "underscore"
