@@ -26,7 +26,7 @@ I am assuming that you have some basic knowledge of Roda and have built at least
 | The size of core contributors (with at least 3 commits) is more than 100. | The size of core contributors (with at least 3 commits) is significantly lesser. 
 | It is good for mid level as well as bigger application. | As compared over http://roda.jeremyevans.net/why.html with Sinatra, [Roda](http://roda.jeremyevans.net/) is good for small applications.|
 | People are having more interest to search about [Rails](guides.rubyonrails.org). | Interest over [Roda](http://roda.jeremyevans.net/) is significantly less.|
-<img src="/assets/images/roda-vs-rails.png" alt="Interest over time of Roda and Ruby on Rails" width="740" height="338">
+<img src="/assets/images/roda-vs-rails.png" alt="Interest over time of Roda and Ruby on Rails" width="740" height="338" class='img-responsive'>
 
 ###Conclusion
 ---

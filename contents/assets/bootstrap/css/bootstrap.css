@@ -1437,7 +1437,7 @@ table th[class*="col-"] {
   border-color: #f8e5be;
 }
 @media (max-width: 768px) {
-  .table-responsive {
+  .table-responsive, .table {
     width: 100%;
     margin-bottom: 15px;
     overflow-y: hidden;
