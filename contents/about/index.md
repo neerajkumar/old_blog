@@ -16,6 +16,7 @@ I have contributed in open source and will always love to contribute because I b
 ---
 |                                                 |                |
 |:------------------------------------------------|:--------------:|
+|[**omdb_gateway**](https://rubygems.org/gems/omdb_gateway) | *https://github.com/neerajkumar/omdb_gateway* |
 |[**active_resource_changeable**](https://rubygems.org/gems/active_resource_changeable) | *https://github.com/neerajkumar/active_resource_changeable* |
 |[**active_resource_associatable**](https://rubygems.org/gems/active_resource_associatable) | *https://github.com/neerajkumar/active_resource_associatable* |
 |[**roo**](https://rubygems.org/gems/roo) | *https://github.com/neerajkumar/roo* |
