@@ -1,8 +1,8 @@
 {
     "locals": {
-        "url": "http://blog.neerajk.com",
+        "url": "https://blog.neerajk.com",
         "domain": "blog.neerajk.com",
-        "baseUrl": "http://blog.neerajk.com",
+        "baseUrl": "https://blog.neerajk.com",
         "name": "Neeraj Kumar",
         "owner": "Neeraj Kumar",
         "author": "neeraj",
@@ -12,13 +12,13 @@
         "googleSiteVerification": "",
         "keywords": ["geek","web","java","spring","spring batch","spring batch in action","node.js","git","ruby","svn","subversion"],
         "feeds": {
-            "feed": "http://feeds.feedburner.com/neerajkumar/feed",
-            "rss": "http://feeds.feedburner.com/neerajkumar/rss",
-            "atom": "http://feeds.feedburner.com/neerajkumar/atom",
-            "comments": "http://feeds.feedburner.com/neerajkumar/comments"
+            "feed": "https://feeds.feedburner.com/neerajkumar/feed",
+            "rss": "https://feeds.feedburner.com/neerajkumar/rss",
+            "atom": "https://feeds.feedburner.com/neerajkumar/atom",
+            "comments": "https://feeds.feedburner.com/neerajkumar/comments"
         },
         "disqus": {
-            "url": "http://neerajkumar.disqus.com",
+            "url": "https://neerajkumar.disqus.com",
             "shortname": "neerajkumar"
         },
         "index_articles": 3,
