@@ -2,22 +2,38 @@ head
   block head
     title
       block title
-        = locals.title + ' ' + locals.urlTitle
+          - if (['index.jade', 'about.jade', 'archive.jade', 'tag.jade'].includes(page.metadata.template))
+            = ' ' + locals.title + ' | ' + locals.urlTitle
+          - else
+            = ' ' + locals.title
+    - if (page.metadata.title)
+      meta(property="og:title", content="#{page.metadata.title} - #{locals.title}")
+    - else
+      meta(property="og:title", content="#{locals.title} | #{locals.urlTitle}")
     meta(content="width=device-width, initial-scale=1, maximum-scale=1", name="viewport")
     - if (page.metadata.excerpt)
       meta(content="#{page.metadata.excerpt}", name="description")
+      meta(property="og:description", content="#{page.metadata.excerpt}")
     - else
-      meta(content="Neeraj Kumar Neeraj neerajk Ruby on Rails Ruby Ruby-oci8 Git ActiveSupport Neerajkggn Neerajkumar neerajkumar neerajkumar2013 ampersand.js hubot SPA single page application Rubyconf Rubyconf-2010 i18n RubyConfIndia2010 Passionate Programmer @bundlexec", name="description")
+      meta(content="Neeraj Kumar - Ruby, Ruby on Rails Coder, Programmer, Tech-Lover, Architect, Full Stack Web Developer, Public Speaker, Open Source Contributor, Problem Solver.", name="description")
+      meta(property="og:description", content="Neeraj Kumar - Ruby, Ruby on Rails Coder, Programmer, Tech-Lover, Architect, Full Stack Web Developer, Public Speaker, Open Source Contributor, Problem Solver.", name="description")
     - if (page.metadata.tags)
       meta(content="#{page.metadata.tags}", name="keywords")
     - else
-      meta(content="Neeraj Kumar Neeraj neerajk Ruby on Rails Ruby Ruby-oci8 Git ActiveSupport Neerajkggn Neerajkumar neerajkumar neerajkumar2013 ampersand.js hubot SPA single page application Rubyconf Rubyconf-2010 i18n RubyConfIndia2010 Passionate Programmer @bundlexec", name="keywords")
+      meta(content="Ruby, Ruby on Rails, ROR, Neeraj Kumar, ROR Expert, Ruby Passionate Programmer, Full Stack Web Developer, Lead Developer, MySQL, PostgreSQL, AngularJs, ReactJs", name="keywords")
+    meta(property="og:type", content="website")
+    meta(property="og:url", content="#{locals.baseUrl}")
+    link(rel='canonical', href="#{locals.baseUrl}")
     meta(charset="utf-8")
     meta(content="IE=edge;chrome=1")
     meta(http-equiv="X-UA-Compatible")
     meta(name='google-site-verification', content='CP2bDcK0ilZ3tVzYdhC395hZhY--3EUkWtyxGFIbKLk')
     //meta(http-equiv="content-type", content='width=device-width, initial-scale=1.0, charset=utf-8')
     link(rel='SHORTCUT ICON', href= '#{locals.baseUrl}' + '/assets/images/13.jpg')
+    - if (page.metadata.ogimage)
+      meta(property="og:image" content="#{page.metadata.ogimage}")
+    - else
+      meta(property="og:image" content="/assets/images/13.jpg")
     link(rel='stylesheet', href= '#{locals.baseUrl}' + '/assets/css/github.css')
     link(rel='stylesheet', media='screen', href= '#{locals.baseUrl}' + '/assets/bootstrap/css/bootstrap.min.css')
     style(type='text/css').

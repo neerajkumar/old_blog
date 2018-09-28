@@ -22,8 +22,8 @@
             "shortname": "neerajkumar"
         },
         "index_articles": 3,
-        "title": "Neeraj Kumar",
-	"urlTitle": "(neerajk.com)"
+        "title": "Neeraj Kumar's Blog",
+	"urlTitle": "Ruby on Rails Expert, Architect & Evangelist | Full Stack Web Developer | Programmer | Open Source Contributor | RubyConf Speaker"
     },
     "require": {
 	"_": "underscore"

@@ -6,6 +6,7 @@ author: neeraj
 aliases: []
 categories: [Ruby, Rails, Roda]
 tags: [ruby, rails, Roda, jeremy evans]
+ogimage: '/assets/images/roda-vs-rails.png'
 excerpt: Rails is old web framework with MVC architecture. It is more stable, mature and popular. Roda is relatively new and claims to be a substitute of Rails. Is it really better than Rails? 
 ---
 
@@ -28,6 +29,6 @@ I am assuming that you have some basic knowledge of Roda and have built at least
 | People are having more interest to search about [Rails](guides.rubyonrails.org). | Interest over [Roda](http://roda.jeremyevans.net/) is significantly less.|
 <img src="/assets/images/roda-vs-rails.png" alt="Interest over time of Roda and Ruby on Rails" width="740" height="338" class='img-responsive'>
 
-###Conclusion
+### Conclusion
 ---
 I think every rails programmer should try [Roda](http://roda.jeremyevans.net/) once. It will provide you a better understanding and knowledge about different rubygems. You can get the opportunity to dig deeper into ruby libraries and their usage too. 
