@@ -33,7 +33,8 @@
 div.navbar.navbar-default.navbar-fixed-top
     div.container
        div.navbar-header
-          a.navbar-brand(href= locals.baseUrl)= locals.title
+          a.navbar-brand(href= locals.baseUrl) 
+            img(src="/assets/images/blog-logo-transparent.png", width='150px').img-responsive
           buttona(type='button', data-toggle='collapse', data-target='#navbar-main').navbar-toggle
             span.icon-bar
             span.icon-bar
@@ -82,3 +83,7 @@ div.navbar.navbar-default.navbar-fixed-top
                     input(type="hidden", value=locals.domain, name="domains")
                     input(type="hidden", value=locals.domain, name="sitesearch")
                     input(class="search-query span2", name="q", type="text", placeholder="Search using Google...")
+br
+br
+br
+br
