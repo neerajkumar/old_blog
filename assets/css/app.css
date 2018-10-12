@@ -54,7 +54,7 @@ li {
 .navbar {
   background-color: #1a1818;
   height: 150px;
-  background-image: radial-gradient(circle closest-corner at 10% 50%, white, black);
+  background-image: radial-gradient(9% 85% at 14% 50%, white, black);
 }
 
 @media (max-width: 800px) {
